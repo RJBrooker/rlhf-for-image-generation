@@ -47,7 +47,7 @@ Configure your project settings, manage active workspaces, and prepare for image
 
 ### 2. Data Config
 ![Data Config](media/01_data_config.png)
-Configure dataset and image generation parameters, define your API keys, and set up your foundational prompt.
+Configure your API keys and define foundational prompt components. These components are systematically combined to generate vast arrays of unique new prompts. Over time, the AI learns exactly which combinations of these components produce the best aesthetic results.
 
 ### 3. Generation
 ![Generation](media/02_generation.png)
@@ -59,7 +59,7 @@ Rate generated images to build your preference dataset. The active learning modu
 
 ### 5. Models
 ![Models](media/04_models.png)
-Train and compare regressor models based on your ratings. View evaluation metrics such as NDCG, Recall, and Precision instantly.
+Train various regressor models to predict how you will rate unseen images. The system evaluates them instantly using metrics like NDCG and Recall to find the most accurate model. This best-performing model is then deployed to automatically generate and curate better prompts in the future.
 
 ### 6. Gallery
 The Gallery provides multiple views to explore how well the machine predicts your taste compared to your actual ratings.
