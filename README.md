@@ -4,7 +4,7 @@
 
 An end-to-end RLHF (Reinforcement Learning from Human Feedback) platform for optimizing Generative AI image prompts. You generate images, rate them based on your aesthetic preferences, and the app automatically trains machine learning models to discover and predict the exact prompt combinations that will produce the style of images you like best.
 
-> **Background:** I originally built this tool to systematically design the perfect cover for my book. I needed a way to explore thousands of prompt variations and use AI to quickly zero in on the exact aesthetic I was looking for.
+> **Background:** I originally made it to design my book cover which is coming out soon, but it works for any project. You generate and rate images, and the system uses your ratings to learn your preferences and create better results.
 
 ## 🚀 Quick Start
 
