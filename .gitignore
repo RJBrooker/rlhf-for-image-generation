@@ -20,7 +20,8 @@ venv/
 !.env.example
 
 # Projects data
-projects/
+projects/*
+!projects/Demo/
 
 # OS Files
 .DS_Store
