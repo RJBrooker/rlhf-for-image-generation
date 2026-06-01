@@ -1,6 +1,6 @@
 # Generative RLHF
 
-An end-to-end RLHF (Reinforcement Learning from Human Feedback) platform for fine-tuning Generative AI image models. You generate images, rate them based on your preferences, and the app automatically builds machine learning models that learn to predict and generate the exact style of images you like best.
+An end-to-end RLHF (Reinforcement Learning from Human Feedback) platform for optimizing Generative AI image prompts. You generate images, rate them based on your aesthetic preferences, and the app automatically trains machine learning models to discover and predict the exact prompt combinations that will produce the style of images you like best.
 
 ## 🚀 Quick Start
 
