@@ -1,6 +1,6 @@
 # Generative RLHF
 
-A modern, full-stack SPA for Reinforcement Learning from Human Feedback (RLHF) applied to Generative AI image prompts. This platform allows you to continuously generate, rate, and model your preferences using lightweight ML regressors.
+An interactive web application that trains AI to understand your personal visual aesthetic. You generate images, rate them based on your preferences, and the app automatically builds machine learning models that learn to predict and generate the exact style of images you like best.
 
 ## 🚀 Quick Start
 
