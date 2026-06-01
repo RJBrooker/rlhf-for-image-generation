@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Base Light Theme (Default) */
+.theme-light {
+}
+
+/* Premium Dark Theme (Zinc/Slate) */
+.theme-dark {
+  background-color: #09090b !important; /* Zinc 950 */
+  color: #fafafa !important; /* Zinc 50 */
+}
+.theme-dark .bg-white { background-color: #18181b !important; } /* Zinc 900 */
+.theme-dark .bg-neutral-50 { background-color: #27272a !important; } /* Zinc 800 */
+.theme-dark .bg-neutral-100 { background-color: #27272a !important; }
+.theme-dark .bg-neutral-200 { background-color: #3f3f46 !important; } /* Zinc 700 */
+.theme-dark .bg-black { background-color: #fafafa !important; color: #09090b !important; }
+.theme-dark .text-white { color: #09090b !important; }
+.theme-dark .text-black, .theme-dark .text-neutral-900 { color: #fafafa !important; }
+.theme-dark .text-neutral-600 { color: #a1a1aa !important; } /* Zinc 400 */
+.theme-dark .text-neutral-500, .theme-dark .text-neutral-400 { color: #71717a !important; } /* Zinc 500 */
+.theme-dark .border-neutral-100, .theme-dark .border-neutral-200, .theme-dark .border-neutral-300 { border-color: #27272a !important; }
+.theme-dark .border-black, .theme-dark .border-neutral-900 { border-color: #52525b !important; }
+.theme-dark input, .theme-dark select, .theme-dark textarea { 
+  color: #fafafa !important; 
+  border-color: #3f3f46 !important; 
+  background-color: #18181b !important;
+}
+.theme-dark input:focus, .theme-dark select:focus { border-color: #fafafa !important; box-shadow: 0 0 0 1px #fafafa !important; }
+.theme-dark .hover\:bg-neutral-50:hover { background-color: #27272a !important; }
+.theme-dark .hover\:bg-neutral-100:hover { background-color: #3f3f46 !important; }
+.theme-dark .hover\:bg-neutral-800:hover, .theme-dark .hover\:bg-neutral-900:hover { background-color: #e4e4e7 !important; color: #09090b !important; }
+.theme-dark .hover\:text-white:hover { color: #09090b !important; }
+.theme-dark .hover\:border-black:hover { border-color: #fafafa !important; }
+
+
+/* Premium Midnight Theme */
+.theme-midnight {
+  background-color: #0b1120 !important; /* Deep navy */
+  color: #f8fafc !important; /* Slate 50 */
+}
+.theme-midnight .bg-white { 
+  background-color: #1e293b !important; /* Slate 800 */
+  border-color: #334155 !important;
+}
+.theme-midnight .bg-neutral-50 { background-color: #0f172a !important; } /* Slate 900 */
+.theme-midnight .bg-neutral-100 { background-color: #1e293b !important; }
+.theme-midnight .bg-neutral-200 { background-color: #334155 !important; }
+.theme-midnight .bg-black { 
+  background-color: #38bdf8 !important; /* Sky 400 */
+  color: #0b1120 !important; 
+  border: none !important;
+}
+.theme-midnight .text-white { color: #0b1120 !important; }
+.theme-midnight .text-black, .theme-midnight .text-neutral-900 { color: #f8fafc !important; }
+.theme-midnight .text-neutral-600 { color: #94a3b8 !important; } /* Slate 400 */
+.theme-midnight .text-neutral-500, .theme-midnight .text-neutral-400 { color: #64748b !important; } /* Slate 500 */
+.theme-midnight .border-neutral-100, .theme-midnight .border-neutral-200, .theme-midnight .border-neutral-300 { border-color: #1e293b !important; }
+.theme-midnight .border-black, .theme-midnight .border-neutral-900 { border-color: #38bdf8 !important; }
+.theme-midnight input, .theme-midnight select, .theme-midnight textarea { 
+  color: #f8fafc !important; 
+  border-color: #334155 !important; 
+  background-color: #0f172a !important;
+}
+.theme-midnight input:focus, .theme-midnight select:focus { 
+  border-color: #38bdf8 !important; 
+  box-shadow: 0 0 0 1px #38bdf8 !important; 
+}
+.theme-midnight .hover\:bg-neutral-50:hover { background-color: #1e293b !important; }
+.theme-midnight .hover\:bg-neutral-100:hover { background-color: #334155 !important; }
+.theme-midnight .hover\:bg-neutral-800:hover, .theme-midnight .hover\:bg-neutral-900:hover { 
+  background-color: #0ea5e9 !important; /* Sky 500 */
+  color: #f8fafc !important;
+}
+.theme-midnight .hover\:text-black:hover { color: #38bdf8 !important; }
+.theme-midnight .hover\:border-black:hover { border-color: #38bdf8 !important; }
