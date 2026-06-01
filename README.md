@@ -6,6 +6,8 @@ An end-to-end RLHF (Reinforcement Learning from Human Feedback) platform for opt
 
 > **Background:** I originally made it to design my book cover which is coming out soon, but it works for any project. You generate and rate images, and the system uses your ratings to learn your preferences and create better results.
 
+![Book Cover](media/book_cover.jpg)
+
 ## 🚀 Quick Start
 
 Ensure you have **Python 3.9+** and **Node.js 18+** installed.
