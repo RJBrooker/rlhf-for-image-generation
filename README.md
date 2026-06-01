@@ -1,6 +1,6 @@
 # Generative RLHF
 
-An interactive web application that trains AI to understand your personal visual aesthetic. You generate images, rate them based on your preferences, and the app automatically builds machine learning models that learn to predict and generate the exact style of images you like best.
+An end-to-end RLHF (Reinforcement Learning from Human Feedback) platform for fine-tuning Generative AI image models. You generate images, rate them based on your preferences, and the app automatically builds machine learning models that learn to predict and generate the exact style of images you like best.
 
 ## 🚀 Quick Start
 
